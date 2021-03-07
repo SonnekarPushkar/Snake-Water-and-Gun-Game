@@ -43,8 +43,12 @@ b = input(" Your turn : Snake(s) , water(w) or gun(g) ? ")
 
 a = gamewin(comp,b)
 
+# Showing the user what the computer has chosen (randomly) and what the user has chosen.
+
 print(f"You chose : {b}")
 print(f"Computer chose : {comp}")
+
+# Showing which one of them has won.
 
 if a == None:
     print("The game is tied.")
@@ -52,3 +56,4 @@ elif a == True:
     print("You win !")
 else:
     print("You lose .")
+#                                                                Made by : Pushkar Girish Sonnekar
